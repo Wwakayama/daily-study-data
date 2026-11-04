@@ -1,11 +1,49 @@
-
 {
+  "date": "2026-11-04",
   "morning": {
     "subject": "☀️ PHP 朝のクイズ 5問",
-    "question": "Q1. PHPでオブジェクトを生成するキーワードは？"
+    "question": "【NULL・gettype・isset】次のPHPコードの出力はどれ？\n\n```php\n$data = [\n    \"name\" => NULL,\n    \"age\" => 20\n];\n\n$check = isset($data[\"name\"]) ? \"あり\" : \"なし\";\n\necho gettype($data[\"name\"]) . \":\";\necho count($data) . \":\" . $check;\n```",
+    "preview": "Q1.【NULL・gettype・isset】\nPHPコードの実行結果はどれ？",
+    "options": [
+      {
+        "value": "A",
+        "label": "NULL:2:なし"
+      },
+      {
+        "value": "B",
+        "label": "NULL:1:なし"
+      },
+      {
+        "value": "C",
+        "label": "NULL:2:あり"
+      },
+      {
+        "value": "D",
+        "label": "string:2:あり"
+      }
+    ]
   },
   "night": {
     "subject": "🌙 JavaScript 夜のクイズ 10問",
-    "question": "Q1. JavaScriptで配列の要素数を調べるには？"
+    "question": "【第1問｜実行結果予想・変数と演算子】\n次のコードを実行すると何が表示される？\n\n```javascript\nlet x = 4;\nlet y = ++x;\nconsole.log(x * y);\n```",
+    "preview": "Q1. let x = 4; let y = ++x;\nconsole.log(x * y) の結果は？",
+    "options": [
+      {
+        "value": "A",
+        "label": "`16`"
+      },
+      {
+        "value": "B",
+        "label": "`20`"
+      },
+      {
+        "value": "C",
+        "label": "`25`"
+      },
+      {
+        "value": "D",
+        "label": "`30`"
+      }
+    ]
   }
 }
