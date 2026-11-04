@@ -1,0 +1,11 @@
+
+{
+  "morning": {
+    "subject": "☀️ PHP 朝のクイズ 5問",
+    "question": "Q1. PHPでオブジェクトを生成するキーワードは？"
+  },
+  "night": {
+    "subject": "🌙 JavaScript 夜のクイズ 10問",
+    "question": "Q1. JavaScriptで配列の要素数を調べるには？"
+  }
+}
